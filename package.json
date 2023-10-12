@@ -1,0 +1,26 @@
+{
+  "name": "bigfuge-static",
+  "version": "1.0.0",
+  "description": "statci",
+  "main": "minifier.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "node minifier.js"
+  },
+  "keywords": [
+    "bigfuge",
+    "bigbiomedicals",
+    "spa",
+    "medical"
+  ],
+  "author": "Joshua Omobola",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-inject": "^5.0.5",
+    "gulp-util": "^3.0.8"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
